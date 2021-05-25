@@ -49,7 +49,7 @@ class App extends Component {
       <div className="App">
 
         <div style={{cursor: "pointer"}}>
-          <p onClick={this.showContacts}>{this.state.icon} Check image inside</p>
+          <p  style={{marginTop: "30px"}} onClick={this.showContacts}>{this.state.icon} Check image inside</p>
         </div>
         <div> 
           {this.state.contacts.length > 0 && 
